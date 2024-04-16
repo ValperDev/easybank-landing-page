@@ -41,8 +41,15 @@ a {
 
 body {
     background-color: var(--very-light-gray);
+    color: var(--grayish-blue);
     font-family: "Public Sans", sans-serif;
     min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--dark-blue);
 }
 
 ul {
@@ -77,6 +84,42 @@ ul {
     font-size: .8em;
     font-weight: 700;
     padding: .7em 1.8em;
+}
+
+.features {
+    background-color: var(--light-grayish-blue);
+    padding: 3em;
+}
+
+.features__title {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.features__description {
+    font-size: 1rem;
+    max-width: 60ch;
+}
+
+.features__list {
+    display: flex;
+    gap: 1.4em;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.feature__title {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.feature__description {
+    font-size: .9rem;
+    line-height: 1.5;
 }
 
 .footer {
