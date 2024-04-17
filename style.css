@@ -80,7 +80,7 @@ ul {
     font-weight: 300;
 }
 
-.header__invite-btn {
+.request-invite-btn {
     background: linear-gradient(90deg, var(--lime-green) 30%, var(--bright-cyan) 100%);
     border: 0;
     border-radius: 30px;
@@ -182,6 +182,9 @@ ul {
 
 .footer {
     background-color: var(--dark-blue);
+    display: flex;
+    gap: 5em;
+    padding: 3em;
 }
 
 .footer__socials {
@@ -214,4 +217,15 @@ ul {
 
 .footer__social-icon--instagram {
     background-image: url("./images/icon-instagram.svg");
+}
+
+.footer__links-list {
+    columns: 2;
+}
+
+.footer__cta {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
 }
